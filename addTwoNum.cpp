@@ -13,12 +13,16 @@ int add(int a, int b){
 
 int main(){
     // Solution sol;
-    int x, y;
+    int T;
 
-    cin >> x >>  y ;
+    while(T--)
+{
+int x, y;
 
-    cout<<add(x, y);
+cin >> x >>  y ;
 
+cout<<add(x, y);
+}
     return 0;
     
 }
